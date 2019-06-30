@@ -1,0 +1,132 @@
+.lol{
+	color:#828282;
+	font-size:45px;
+	font-family:Lobster;
+	text-align:center;
+	padding-top:20%;
+}
+
+.bandeau{  background: rgba(4, 4, 4, 0.5); width: 100%; margin: 2% 0 4% 0; position: relative; overflow: hidden; padding: 0 0 200px 0;  }
+
+.bandeau .bande { height: 200px !important; width: 1500px !important;    padding: 0; display: inline-block; position: absolute; top: 0; left: 0; -webkit-animation: bandedef linear 30s infinite; animation: bandedef linear 30s infinite; }
+
+.bandeau .bande2 { height: 200px !important;    padding: 0; width: 1500px !important; left: 0; position: absolute; top: 0; opacity: 0; -webkit-animation: bandedef2 linear 30s infinite; animation: bandedefo linear 30s infinite; -webkit-animation-delay: 15s; animation-delay: 13.5s; }
+
+@keyframes bandedef { 0% { -webkit-transform: translateX(100%); transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); transform: translateX(-100%); } }
+
+
+@keyframes bandedefo { 0% { -webkit-transform: translateX(100%); transform: translateX(100%);
+	opacity: 1; }
+	100% { -webkit-transform: translateX(-100%); transform: translateX(-100%);
+		opacity: 1; } }
+
+		.back{
+			height:100%;
+			background-size: 100%;
+			background-image: url("../img/MR.jpg");
+		}
+
+		html, body {
+			margin: 0;	
+			padding: 0;
+		}
+
+		body {
+			background: #171717;
+			color: #999;
+			font: 100%/18px helvetica, arial, sans-serif;
+		}
+
+		a {
+			color: #2fa1d6;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #fff;	
+		}
+
+		#canvas-container {
+			background: #000 url("../img/MR.jpg");
+			height: 400px;
+			left: 50%;
+			margin: -200px 0 0 -300px;
+			position: absolute;
+			top: 50%;
+			width: 600px;
+			z-index: 2;
+		}
+
+		canvas {
+			cursor: crosshair;
+			display: block;
+			position: relative;
+			z-index: 3;
+		}
+
+		canvas:active {
+			cursor: crosshair;
+		}
+
+		#skyline {
+			background: url(https://jackrugile.com/lab/fireworks-v2/images/skyline.png) repeat-x 50% 0;
+			bottom: 0;
+			height: 135px;
+			left: 0;
+			position: absolute;
+			width: 100%;
+			z-index: 1;	
+		}
+
+		#mountains1 {
+			background: url(https://jackrugile.com/lab/fireworks-v2/images/mountains1.png) repeat-x 40% 0;
+			bottom: 0;
+			height: 200px;
+			left: 0;
+			position: absolute;
+			width: 100%;
+			z-index: 1;	
+		}
+
+		#mountains2 {
+			background: url(https://jackrugile.com/lab/fireworks-v2/images/mountains2.png) repeat-x 30% 0;
+			bottom: 0;
+			height: 250px;
+			left: 0;
+			position: absolute;
+			width: 100%;
+			z-index: 1;	
+		}
+
+		#gui {
+			right: 0;
+			position: fixed;
+			top: 0;
+			z-index: 3;
+		}
+
+		.sticker {
+			position: relative;
+			width: 180px;
+			height: 180px;
+			margin: 50px;
+		}
+
+		.example-1 .sticker-img {
+			background-image: url(heroes-2.png);
+		}
+
+		.example-2 .sticker-img {
+			background-color: #ff4a85;
+		}
+
+		.example-2 .sticker-shadow {
+			opacity: 0.6;
+		}
+
+
+
+
+
